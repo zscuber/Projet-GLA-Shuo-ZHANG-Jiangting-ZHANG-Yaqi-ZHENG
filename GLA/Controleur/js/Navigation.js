@@ -2,7 +2,7 @@
     
 	var button = document.getElementsByTagName('button');
 	var label = $('p');
-	var information = label[1];
+	var information = label[2];
 
 	var user = $('#user').text(); 
 
@@ -53,9 +53,9 @@
 	// 	console.log(tabDest[i]);
 	// }
 	function init(){
-		label[3].innerText=tabDepart[0];
-		label[5].innerText=tabDest[0];
-		label[7].innerText=tabTour[0];
+		label[4].innerText=tabDepart[0];
+		label[6].innerText=tabDest[0];
+		label[8].innerText=tabTour[0];
 		information.innerText="Remaining distance: "+distance+" km."+" Remaining time: "+temps.toFixed(1)+" h.";
 	}
 	init();
@@ -63,18 +63,18 @@
 
 	button[0].onclick = function(){
 		if(step<tabDepart.length){
-			label[3].innerText=tabDepart[step];
-			label[5].innerText=tabDest[step];
-			label[7].innerText=tabTour[step];
+			label[4].innerText=tabDepart[step];
+			label[6].innerText=tabDest[step];
+			label[8].innerText=tabTour[step];
 			var distancerest=distance-tabDistance[step-1];
 			var tempsrest=temps-tabTime[step-1];
-			information.innerText="Remaining distance: "+distancerest+" km."+" Remaining time: "+tempsrest.toFixed(1)+" h.";
+			information.innerText="Remaining distance: "+distancerest+" km./n"+" Remaining time: "+tempsrest.toFixed(1)+" h.";
 		step++;
 		}
 		else{
-			label[3].innerText=tabDest[step-1];
-			label[5].innerText="Nothing";
-			label[7].innerText=tabTour[step-1];
+			label[4].innerText=tabDest[step-1];
+			label[6].innerText="Nothing";
+			label[8].innerText=tabTour[step-1];
 			information.innerText="You arrievd your destination!"
 		}
 	}

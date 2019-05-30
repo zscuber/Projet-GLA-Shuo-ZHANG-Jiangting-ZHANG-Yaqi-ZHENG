@@ -43,7 +43,7 @@
 	$temps=$data[0][$count_obj-1]['temps'];
 	//$temps=ceil($temps);
 	$temps=number_format($temps,1);
-	echo "Distance : ".$distance." km Time : ".$temps." h";}
+	echo "Distance : ".$distance." km, Time : ".$temps." h";}
 	else{
 		$count_obj=count($data);
 		//echo $count_obj;
@@ -52,7 +52,7 @@
 		$temps=$data[$count_obj-1]['temps'];
 		//$temps=ceil($temps);
 		$temps=number_format($temps,1);
-		echo "Distance : ".$distance." km Time : ".$temps." h";}
+		echo "Distance : ".$distance." km, Time : ".$temps." h";}
 	?>
 	<br></br>
 	<input type="radio" name="way" value="2" />Way<?php $i=2;echo $i;?>:
@@ -64,7 +64,7 @@
 	$temps=$data[1][$count_obj-1]["temps"];
 	//$temps=ceil($temps);
 	$temps=number_format($temps,1);
-	echo "Distance : ".$distance." km Time : ".$temps." h";}
+	echo "Distance : ".$distance." km, Time : ".$temps." h";}
 	else{
 		echo "Sorry,we can just find one way.";
 	}

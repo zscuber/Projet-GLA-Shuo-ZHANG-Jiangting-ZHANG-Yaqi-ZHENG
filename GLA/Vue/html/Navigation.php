@@ -34,13 +34,28 @@
 		echo $name;?>
 		</p>
 
+		<p>Your route is: </p>
+		<?php 
+		for ($j=1;$j<$nbt+1;$j++){
+		$depart=$data[$j]['depart'];
+		$destination=$data[$j]['destination'];
+		$touristique=$data[$j]['touristique'];
+		echo $depart;
+		echo "=>";
+		echo $destination;
+		echo " ";
+		//echo $depart;
+		//array_push($a, $depart);
+		}
+	?>
+		
 		<p></p>
 	
 	<p id="titre">You are now in ville: </p><p for="depart" class="search" name="depart" id="info"></p>
 	<p id="titre">Your next ville is: </p><p for="destination" class="search" name="destination" id="info"></p>
 	<p id="titre">Is this a tourist ville?</p><p for="touristique" class="search" name="touristique" id="info"></p>
 	<br></br>
-	<button class="sb" id="arrived" type="submit">Arrived</button>
+	<button class="sb" id="arrived" type="button">Arrived</button>
 		<div class="sign" id="sign">
 	<button class="sb2">Back</button>
 	</div>
