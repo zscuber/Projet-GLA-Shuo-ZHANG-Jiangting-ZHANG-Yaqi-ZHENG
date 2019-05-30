@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/Login.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Login</title>
+</head>
+<body>
+	
+
+<div class="bienvenue" id="bienvenue">Welcome to our application</div>
+	
+<div class="mainpage" id="mainpage"> 
+	<form action="../Controleur/php/Login.php" method="POST">
+	<p>Your name: </p><input type="text" name="login" class="login"></input>
+	<p>Pass word: </p><input type="password" name="password" class="login"></input>
+	<p></p><button value="comfirm" class="sb1">Comfirm</button><br>
+	<a href="../Vue/html/OublierMDP.html" id="a">Forget your password?</a>
+	</form>
+	<div class="sign" id="sign">
+		<p class="p3">Sign up here.</p>
+		<button name="signup" value="Sign" class="sb2" >Signup</button> 
+		<button name="skip" value="Skip" class="sb3" >Skip</button> 
+	</div>
+</div>
+
+<script src='../Controleur/js/Login.js'></script>
+</body>
+</html>

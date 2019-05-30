@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="../css/OublierMDP.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SetMDP</title>
+</head>
+<body>
+	<div class="bienvenue" id="bienvenue">Password Setting</div>
+
+<div class="mainpage" id="mainpage"> 
+	<p>You have forgotten your password?</p>
+	<form action="../../Controleur/php/OublierMDP.php" method="POST">
+	<p>Your name:</p><input type="text" name="login" class="login"></input>
+	<p>Verify your email: </p><input type="text" name="mail" class="login"></input>
+	<p>Your new password: </p><input type="password" name="pwd1" class="login"></input>
+	<p>Verify your new password: </p><input type="password" name="pwd2" class="login"></input>
+	<button class="sb" type="submit">Comfirm</button>
+	</form>
+	<div class="sign" id="sign">
+	<button class="sb2">Back</button>
+	</div>
+</div>
+
+<script src='../../Controleur/js/OublierMDP.js'></script>
+</body>
+</html>

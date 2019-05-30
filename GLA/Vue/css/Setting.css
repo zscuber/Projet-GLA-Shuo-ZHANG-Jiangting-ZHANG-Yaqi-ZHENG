@@ -1,0 +1,160 @@
+@font-face {
+	font-family:'Helvetica';
+    src:url('../Helvetica/Helvetica/Helvetica.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;  /*居中 先把装他的容器设置成这个*/
+}
+.mainpage{
+	margin: 0 auto;		/*居中 他本身设置成这个*/
+	background-color:#f7f7f7;
+	width: 350px;
+	height: 460px;
+	padding:50px;
+	padding-top: 20px;
+	margin-top:80px;
+	box-shadow: 10px 10px 50px #E2DDD9;
+	text-align: center;
+
+}
+.bienvenue{
+	padding-top: 5%;
+	margin:0 auto;
+	font-size:50px;
+}
+p{
+	left:5%;
+	font-size: 15px;
+	font-weight:bold;
+}
+.p3{
+	color: #427fed;
+}
+.login{
+	position: relative;
+	width: 200px;
+	height: 30px;
+	margin: 0 auto;	
+}
+.sign{
+	margin-top: 20px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+.sb,.sb2{
+	position: relative;
+	margin: 0 auto;
+	width: 205px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:#427fed;
+	cursor: pointer;
+	font-weight:bold;
+	color:white;
+	margin-top:20px;
+	opacity: 0.9;
+}
+.sb:hover,.sb2:hover{
+	opacity: 1;
+}
+.sb2{
+	background-color:green;
+}
+
+li,ul {
+	margin:0;
+	padding:0;
+}
+ul li {
+	list-style:none;
+}
+
+.mainpage .Companies {
+	position:relative;
+	margin: 0 auto;
+}
+.mainpage .Companies ul {
+	position:absolute;
+	margin: 0 auto;
+	height:210px;
+	width:206px;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	display:none;
+	left: 70px;
+	background-color: white;
+	z-index: 999; 
+}
+.mainpage .Companies ul li {
+	padding:3px 12px;
+}
+.mainpage .Companies ul li:hover {
+	background-color:#bebebe;
+	cursor:pointer;
+}
+.mainpage .Companies ul li.top {
+	position:absolute;
+	top:0;
+}
+
+.mainpage .Companies2 {
+	position:relative;
+	margin: 0 auto;
+}
+.mainpage .Companies2 ul {
+	position:absolute;
+	margin: 0 auto;
+	height:210px;
+	width:206px;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	display:none;
+	left: 70px;
+	background-color: white;
+	z-index: 999; 
+}
+.mainpage .Companies2 ul li {
+	padding:3px 12px;
+}
+.mainpage .Companies2 ul li:hover {
+	background-color:#bebebe;
+	cursor:pointer;
+}
+.mainpage .Companies2 ul li.top {
+	position:absolute;
+	top:0;
+}
+
+
+.mainpage .Companies3 {
+	position:relative;
+	margin: 0 auto;
+}
+.mainpage .Companies3 ul {
+	position:absolute;
+	margin: 0 auto;
+	height:210px;
+	width:206px;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	display:none;
+	left: 70px;
+	background-color: white;
+	z-index: 999; 
+}
+.mainpage .Companies3 ul li {
+	padding:3px 12px;
+}
+.mainpage .Companies3 ul li:hover {
+	background-color:#bebebe;
+	cursor:pointer;
+}
+.mainpage .Companies3 ul li.top {
+	position:absolute;
+	top:0;
+}

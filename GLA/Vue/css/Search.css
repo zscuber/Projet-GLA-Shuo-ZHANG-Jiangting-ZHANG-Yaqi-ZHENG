@@ -1,0 +1,66 @@
+@font-face {
+	font-family:'Helvetica';
+    src:url('../Helvetica/Helvetica/Helvetica.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;  /*居中 先把装他的容器设置成这个*/
+}
+.mainpage{
+	margin: 0 auto;		/*居中 他本身设置成这个*/
+	background-color:#f7f7f7;
+	width: 350px;
+	height: 480px;
+	padding:50px;
+	margin-top:50px;
+	box-shadow: 10px 10px 50px #E2DDD9;
+	text-align: center;
+
+}
+.bienvenue{
+	padding-top: 5%;
+	margin:0 auto;
+	font-size:50px;
+}
+p{
+	left:5%;
+	font-size: 15px;
+	font-weight:bold;
+}
+.p3{
+	color: #427fed;
+}
+.login{
+	position: relative;
+	width: 200px;
+	height: 30px;
+	margin: 0 auto;	
+}
+.sign{
+	margin-top: 20px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+.sb,.sb2{
+	position: relative;
+	margin: 0 auto;
+	width: 205px;
+	height: 40px;
+	border-radius: 5px;
+	background-color:#427fed;
+	cursor: pointer;
+	font-weight:bold;
+	color:white;
+	margin-top:20px;
+	opacity: 0.9;
+}
+.sb:hover,.sb2:hover{
+	opacity: 1;
+}
+.sb2{
+	background-color:green;
+}

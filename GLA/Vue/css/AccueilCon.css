@@ -1,0 +1,175 @@
+@font-face {
+	font-family:'Helvetica';
+    src:url('../Helvetica/Helvetica/Helvetica.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+	text-align:center;
+}
+.bienvenue{
+	padding-top: 3%;
+	margin:0 auto;
+	font-size:50px;
+}
+.mainpage{
+	margin: 0 auto;
+	background-color:#f7f7f7;
+	width: 350px;
+	height: 620px;
+	padding:50px;
+	padding-top: 0px;
+	margin-top:30px;
+	box-shadow: 10px 10px 50px #E2DDD9;
+	text-align: center;
+}
+p{
+	left:5%;
+	font-size: 15px;
+	font-weight:bold;
+}
+.user{
+	color: grey;
+}
+.boption{
+	width: 90px;
+	height: 30px;
+	border-radius:5px;
+	background-color:#427fed;
+	cursor: pointer;
+	font-weight:bold;
+	color:white;
+	margin-top:10px; 
+	opacity: 0.9;
+}
+.boption:hover{
+	opacity: 1;
+}
+#setting{
+	width: 60px;
+	height: 30px;
+	background-color:green;
+}
+#userSetting{
+	width: 80px;
+	height: 40px;
+	background-color:green;
+}
+.search{
+	position: relative;
+	width: 200px;
+	height: 30px;
+	margin: 0 auto;
+}
+.conditionpage{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+.condition1{
+	width: 100px;
+	height: 15px;
+	margin: 0 auto;
+}
+.condition2{
+	position: absolute;
+	left:665px;
+}
+.sb,.sb2{
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height: 40px;
+	border-radius:5px;
+	background-color:#427fed;
+	cursor: pointer;
+	font-weight:bold;
+	color:white;
+	margin-top:0px;
+	opacity: 0.9;
+}
+.sb:hover,.sb2:hover{
+	opacity: 1;
+}
+.sb2{
+	margin-top:15px;
+	background-color: green;
+}
+.sign{
+	margin-top: 15px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+
+
+li,ul {
+	margin:0;
+	padding:0;
+}
+ul li {
+	list-style:none;
+}
+
+.mainpage .Companies {
+	position:relative;
+	margin: 0 auto;
+}
+.mainpage .Companies ul {
+	position:absolute;
+	margin: 0 auto;
+	height:210px;
+	width:206px;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	display:none;
+	left: 70px;
+	background-color: white;
+	opacity: 0.9;
+	z-index: 999; 
+}
+.mainpage .Companies ul li {
+	padding:3px 12px;
+}
+.mainpage .Companies ul li:hover {
+	background-color:#bebebe;
+	cursor:pointer;
+}
+.mainpage .Companies ul li.top {
+	position:absolute;
+	top:0;
+}
+
+.mainpage .Companies2 {
+	position:relative;
+	margin: 0 auto;
+}
+.mainpage .Companies2 ul {
+	position:absolute;
+	margin: 0 auto;
+	height:210px;
+	width:206px;
+	overflow-y:auto;
+	border:1px solid #DDD;
+	display:none;
+	left: 70px;
+	background-color: white;
+	opacity: 0.9;
+	z-index: 999; 
+}
+.mainpage .Companies2 ul li {
+	padding:3px 12px;
+}
+.mainpage .Companies2 ul li:hover {
+	background-color:#bebebe;
+	cursor:pointer;
+}
+.mainpage .Companies2 ul li.top {
+	position:absolute;
+	top:0;
+}
+
